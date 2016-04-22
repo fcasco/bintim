@@ -7,37 +7,46 @@
         <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <h1>BinTim</h1>
-        <p>Binary Clock</p>
+        <header>
+            <h1>BinTim</h1>
+            <p>Binary Clock</p>
+        </header>
 
-        <h2>Hours</h2>
-        <ol class="bits hours">
-            <li id="hours_b0" class="off">o</li>
-            <li id="hours_b1" class="off">o</li>
-            <li id="hours_b2" class="off">o</li>
-            <li id="hours_b3" class="off">o</li>
-            <li id="hours_b4" class="off">o</li>
-        </ol>
-        
-        <h2>Minutes</h2>
-        <ol class="bits minutes">
-            <li id="minutes_b0" class="off">o</li>
-            <li id="minutes_b1" class="off">o</li>
-            <li id="minutes_b2" class="off">o</li>
-            <li id="minutes_b3" class="off">o</li>
-            <li id="minutes_b4" class="off">o</li>
-            <li id="minutes_b5" class="off">o</li>
-        </ol>
-        
-        <h2>Seconds</h2>
-        <ol class="bits seconds">
-            <li id="seconds_b0" class="off">o</li>
-            <li id="seconds_b1" class="off">o</li>
-            <li id="seconds_b2" class="off">o</li>
-            <li id="seconds_b3" class="off">o</li>
-            <li id="seconds_b4" class="off">o</li>
-            <li id="seconds_b5" class="off">o</li>
-        </ol>
+        <div id="bintim_clock">
+            <h2>Hours</h2>
+            <ol class="bits hours">
+                <li class="bit bit_0 off">o</li>
+                <li class="bit bit_1 off">o</li>
+                <li class="bit bit_2 off">o</li>
+                <li class="bit bit_3 off">o</li>
+                <li class="bit bit_4 off">o</li>
+            </ol>
+            
+            <h2>Minutes</h2>
+            <ol class="bits minutes">
+                <li class="bit bit_0 off">o</li>
+                <li class="bit bit_1 off">o</li>
+                <li class="bit bit_2 off">o</li>
+                <li class="bit bit_3 off">o</li>
+                <li class="bit bit_4 off">o</li>
+                <li class="bit bit_5 off">o</li>
+            </ol>
+            
+            <h2>Seconds</h2>
+            <ol class="bits seconds">
+                <li class="bit bit_0 off">o</li>
+                <li class="bit bit_1 off">o</li>
+                <li class="bit bit_2 off">o</li>
+                <li class="bit bit_3 off">o</li>
+                <li class="bit bit_4 off">o</li>
+                <li class="bit bit_5 off">o</li>
+            </ol>
+
+            <div class="controls">
+                <button class="start">Start</button>
+                <button class="stop">Stop</button>
+            </div>
+        </div>
 
         <script src="bintim.js"></script>
     </body>
