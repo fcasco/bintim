@@ -1,0 +1,34 @@
+/* Palette URL: http://paletton.com/#uid=23w050kfeo99QP1bbz8hvgal09S */
+.color-primary-0 { color: #44657B }	/* Main Primary color */
+.color-primary-1 { color: #9DC2DD }
+.color-primary-2 { color: #7495AD }
+.color-primary-3 { color: #284153 }
+.color-primary-4 { color: #132632 }
+
+.color-complement-0 { color: #C09965 }	/* Main Complement color */
+.color-complement-1 { color: #FFDDB1 }
+.color-complement-2 { color: #FFD8A6 }
+.color-complement-3 { color: #81623A }
+.color-complement-4 { color: #4F381B }
+
+body {
+    background-color: #44657B;
+    color: #C09965;
+    font-family: 'Sigmar One', cursive;
+}
+
+.off {
+    color: #7495AD;
+}
+
+.on {
+    color: #132632;
+}
+
+.bits {
+    list-style: none;
+}
+
+.bits li {
+    display: inline;
+}
